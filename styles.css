@@ -1,0 +1,273 @@
+body {
+    min-height: 100vh;
+    background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
+    background-position: left top, right bottom;
+    background-repeat: no-repeat, no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+main {
+    width: 62em;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3em;
+}
+
+.upper-part {
+    display: flex;
+}
+
+
+
+header {
+    width: 22em;
+}
+
+
+.customer-rates {
+    width: 30em;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    padding: auto;
+}
+
+.customer-reviews {
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-between;
+    height: 14em;
+
+}
+
+.review1 {
+    margin-bottom: auto;
+}
+
+.review2 {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.review3 {
+    margin-top: auto;
+
+}
+
+
+
+h1,
+.rated,
+.about,
+.verified {
+    font-family: 'League Spartan', sans-serif;
+    color: hsl(300, 43%, 22%);
+    font-size: 15px;
+}
+
+.rated {
+    font-weight: 700;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 0.5em;
+    padding: 1em 1.3em;
+    margin-top: 1em;
+}
+
+.five-stars {
+    display: inline;
+    margin-left: 1em;
+}
+
+.in-reviews,
+.in-report-guru,
+.in-besttech {
+    width: 25em;
+}
+
+.in-report-guru {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.in-besttech {
+    margin-left: auto;
+}
+
+.star-icon {
+    margin: 0.1em 0.2em 0 0.2em;
+    width: 0.9em;
+
+}
+
+.about {
+    color: hsl(303, 10%, 53%);
+    font-weight: 400;
+    line-height: 1.2em;
+}
+
+.verified {
+    color: hsl(333, 80%, 67%);
+    font-weight: 500;
+}
+
+blockquote,
+.reviewee {
+    color: white;
+    font-weight: 500;
+    font-family: 'League Spartan', sans-serif;
+
+}
+
+.verified {
+    margin-top: 0.6em;
+    margin-left: 0.8em;
+}
+
+.reviewee {
+    margin-bottom: 0.6em;
+    margin-left: 0.8em;
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: 700;
+    width: 8em;
+    margin-top: 0;
+}
+
+blockquote {
+    font-size: 0.8em;
+    line-height: 1.25em;
+    margin-left: 1.75em;
+    margin-bottom: 2em;
+}
+
+.review1,
+.review2,
+.review3 {
+    background: hsl(300, 43%, 22%);
+    border-radius: 5px;
+    width: 20em;
+}
+
+.avatar {
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+}
+
+.review-upper-portion {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 1.5em;
+    padding-top: 1.5em;
+
+}
+
+@media screen and (max-width:376px) {
+    body {
+        min-height: 100vh;
+        background-image: url(images/bg-pattern-top-mobile.svg), url(images/bg-pattern-bottom-mobile.svg);
+        background-position: left top, right bottom;
+        background-repeat: no-repeat, no-repeat;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    main {
+
+        width: 22em;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .upper-part {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header {
+        width: 22em;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1 {
+        margin: 1.5em auto 0.5em auto;
+    }
+
+    .about {
+        line-height: 1.5em;
+        margin: auto 2em auto 2em;
+    }
+
+    .customer-rates {
+        width: 22em;
+        display: flex;
+        flex-direction: column;
+        margin-top: 1.5em;
+        padding: auto;
+    }
+
+    .rated {
+        font-weight: 700;
+        background-color: hsl(300, 24%, 96%);
+        border-radius: 0.5em;
+        padding: 1em 1.3em;
+        margin-top: 1em;
+    }
+
+    .star-icon {
+        margin: 0.1em 0.2em 0 0.2em;
+        width: 0.9em;
+        display: inline;
+
+    }
+
+    .five-stars {
+        display: block;
+        margin: 0.5em 0 0 0;
+
+
+    }
+
+    .in-reviews,
+    .in-report-guru,
+    .in-besttech {
+        width: 19em;
+        margin: 0 auto 1em auto;
+        text-align: center;
+
+    }
+
+    .customer-reviews {
+        margin-top: 2em;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        height: 40em;
+
+    }
+
+    .review1,
+    .review2,
+    .review3 {
+        margin-bottom: 1em;
+    }
+}
+
+
+
+
+
+
+
